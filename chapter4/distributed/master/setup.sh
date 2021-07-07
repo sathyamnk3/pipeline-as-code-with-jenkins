@@ -28,6 +28,6 @@ mv /tmp/scripts/disable-jnlp.groovy /var/lib/jenkins/init.groovy.d/disable-jnlp.
 mv /tmp/scripts/node-agent.groovy /var/lib/jenkins/init.groovy.d/node-agent.groovy
 mv /tmp/scripts/skip-jenkins-setup.groovy /var/lib/jenkins/init.groovy.d/skip-jenkins-setup.groovy
 mv /tmp/config/jenkins /etc/sysconfig/jenkins
-chmod +x /tmp/scripts/install-plugins.sh
+chmod +x /tmp/config/install-plugins.sh
 bash /tmp/config/install-plugins.sh
 service jenkins start
